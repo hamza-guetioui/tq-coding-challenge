@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState } from "react";
-import { triviaQuizzes } from "./data";
+import { triviaQuizzes } from "../data";
 
 interface QuizContextProviderProp {
   children: React.ReactNode;

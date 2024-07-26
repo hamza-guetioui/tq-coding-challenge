@@ -4,7 +4,7 @@ import End from "./End";
 
 
 // context
-import { useQuizContext } from "./quizContext";
+import { useQuizContext } from "./../context/quizContext";
 
 function Main() {
   const { question , questions } = useQuizContext();

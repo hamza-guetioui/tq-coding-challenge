@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { useQuizContext } from "../quizContext";
+import { useQuizContext } from "../../context/quizContext";
 import Button from "./nextBtn";
 
-import { triviaQuizzes } from "../data";
+import { triviaQuizzes } from "../../data";
 interface QuestionProps {
   question: {
     id: number;

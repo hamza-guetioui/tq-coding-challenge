@@ -1,5 +1,5 @@
 import React from "react";
-import { useQuizContext } from "../quizContext";
+import { useQuizContext } from "../../context/quizContext";
 import StartBtn from "./StartBtn";
 
 function Start() {

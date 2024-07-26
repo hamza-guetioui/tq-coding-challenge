@@ -1,7 +1,7 @@
 import React from "react";
-import { useQuizContext } from "./quizContext";
+import { useQuizContext } from "./../context/quizContext";
 
-import { triviaQuizzes } from "./data";
+import { triviaQuizzes } from "../data";
 
 const End: React.FC = () => {
   const { inputValue, rightAnswers } = useQuizContext();
