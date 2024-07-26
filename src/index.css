@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+
+.BtnStyle {
+    @apply px-4 py-2 opacity-65 rounded-md text-white  hover:text-app-light-blue;
+    @apply  bg-app-light-blue border-2 border-app-light-blue;
+    @apply  hover:bg-white duration-500;
+}
